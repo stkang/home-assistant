@@ -16,7 +16,7 @@ class AbstractConversationAgent(ABC):
         """Get onboard data."""
         return None
 
-    async def async_set_onboarding(self, new_data):
+    async def async_set_onboarding(self, shown):
         """Set onboard data."""
         return True
 
